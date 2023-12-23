@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style type="text/css">body, html {height: 100%;width: 100%;margin: 0;}</style>
+        <script defer src="file:///android_asset/echarts/echarts.min.js" onload="initEcharts();"></script>
+        <script type="text/javascript">
+            function initEcharts() {
+                var myChart = echarts.init(document.getElementById('main'));
+                var option = {option};
+                myChart.setOption(option);
+                window.onresize = myChart.resize;
+            }
+        </script>
+    </head>
+    <body>
+        <div id="main" style="width: 100%;height: 100%;margin: 0;"></div>
+    </body>
+</html>
