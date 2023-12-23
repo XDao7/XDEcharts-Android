@@ -3,6 +3,8 @@
 
 适用于后端不提供HTML文件，以及数据结构和Echarts Option不一致的情况。
 
+欢迎提供建议和意见（￣︶￣）↗　
+
 ![Image](https://github.com/XDao7/XDEcharts-Android/blob/master/docs/res/XDEcharts.jpg)
 
 ## 导入
